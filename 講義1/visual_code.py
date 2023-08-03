@@ -5,7 +5,7 @@ xxx=269
 yyy= 474
 
 # orgin image 
-origin_img = cv2.imread('picture/toocol.png')
+origin_img = cv2.imread('toocol.png')
 origin_img = cv2.cvtColor(origin_img, cv2.COLOR_BGR2GRAY)
 print ( origin_img.shape)
 # 建立全黑的新圖片 269*474
